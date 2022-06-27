@@ -2,6 +2,11 @@ body {
   font-family: "Montserrat", sans-serif;
   background-color: #f5f7fa;
 }
+ul {
+  list-style: none;
+  padding: 0;
+}
+
 /* main styles */
 
 .main {
@@ -59,10 +64,6 @@ body {
 /* project styles */
 .projects {
   margin-bottom: 50px;
-  /* зовнішній відступ */
-  /* margin: 100px 90px 300px 60px;
-  margin: 50px
-  margin: 100px 50px */
 }
 
 /* work styles */
@@ -97,7 +98,7 @@ body {
   margin-left: 10px;
 }
 
-.project-brecket {
+.project-decription {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -121,14 +122,6 @@ body {
   line-height: 20px;
   color: #000000;
   margin-bottom: 10px;
-}
-
-.company-two {
-  display: none;
-}
-
-.company-three {
-  display: none;
 }
 
 .org {
@@ -171,7 +164,7 @@ body {
 
 /* eduction styles */
 
-.education {
+.education.additional-education {
   margin-bottom: 110;
 }
 
@@ -242,12 +235,12 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
+  margin-left: 17px;
 }
 
 .tech-list,
 .soft-list {
   color: #ffffff;
-  padding: 0;
   margin-left: 17px;
 }
 
