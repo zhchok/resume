@@ -1,6 +1,6 @@
 body {
 	font-family: "Montserrat", sans-serif;
-	background-color: #f5f7fa;
+	/* background-color: #f5f7fa; */
 }
 ul {
 	list-style: none;
@@ -12,12 +12,12 @@ ul {
 .main {
 	display: flex;
 	flex-direction: row-reverse;
-	width: 1200px;
+	max-width: 2480px;
 	margin: 0 auto;
 }
 
 .main-content {
-	background-color: #fff;
+	/* background-color: #fff; */
 	box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 	padding: 105px 90px;
 }
@@ -93,9 +93,8 @@ ul {
 	line-height: 24px;
 	color: #595959;
 }
-
 .project-link {
-	margin-left: 10px;
+	color: #fb6d3a;
 }
 
 .project-decription {
