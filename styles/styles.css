@@ -1,6 +1,6 @@
 body {
 	font-family: "Montserrat", sans-serif;
-	/* background-color: #f5f7fa; */
+	margin: 0px;
 }
 ul {
 	list-style: none;
@@ -17,16 +17,14 @@ ul {
 }
 
 .main-content {
-	/* background-color: #fff; */
-	box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-	padding: 105px 90px;
+	padding: 80px 80px;
 }
 
 /* frontend styles */
 .frontend {
 	font-style: normal;
 	font-weight: bold;
-	font-size: 14px;
+	font-size: 18px;
 	line-height: 17px;
 	color: #000000;
 	margin-bottom: 20px;
@@ -49,7 +47,6 @@ ul {
 	font-size: 14px;
 	line-height: 24px;
 	color: #595959;
-	width: 400px;
 }
 
 .project-title {
@@ -107,7 +104,6 @@ ul {
 
 .project-list {
 	padding: 0%;
-	margin-left: 15px;
 }
 
 .work {
@@ -223,16 +219,6 @@ ul {
 	margin-bottom: 50px;
 }
 
-.C,
-.E {
-	color: #ffffff;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 14px;
-	line-height: 24px;
-	margin-right: 7px;
-}
-
 .contact-link {
 	color: #ffffff;
 	font-style: normal;
@@ -260,4 +246,5 @@ ul {
 	font-weight: normal;
 	font-size: 14px;
 	line-height: 24px;
+	font-size: s;
 }
